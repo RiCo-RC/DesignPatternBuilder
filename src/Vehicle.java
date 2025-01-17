@@ -11,6 +11,7 @@ public class Vehicle {
         this.name = builder.name;
         this.drive = builder.drive;
         this.options = builder.options;
+        this.isAutomatic = builder.isAutomatic;
     }
 
     @Override
@@ -19,6 +20,8 @@ public class Vehicle {
 
         result += "--------------------" + "\n";
         result += "Name: " + this.name + "\n";
+        result += "Drive: " + this.drive  + "\n";
+        result += "Automatic: " + this.isAutomatic  + "\n";
         for (String option : this.options) {
             result += option  + ", ";
         }
