@@ -1,2 +1,2 @@
-public class IBuilderVehicle {
+public interface IBuilderVehicle {
 }
