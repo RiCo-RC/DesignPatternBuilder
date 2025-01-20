@@ -45,13 +45,13 @@ public class Vehicle {
         public BuilderVehicle addOption(Enum item) {
             switch(item) {
                 case EBuilderVehicle.SEAT_FIVE:
-                    this.options.add("Five seats");
+                    this.options.add(EBuilderVehicle.SEAT_FIVE.toString());
                     break;
                 case EBuilderVehicle.DOOR_FIVE:
-                    this.options.add("Five door");
+                    this.options.add(EBuilderVehicle.DOOR_FIVE.toString());
                     break;
                 case EBuilderVehicle.ROOF_OPEN:
-                    this.options.add("Roof is open");
+                    this.options.add(EBuilderVehicle.ROOF_OPEN.toString());
                     break;
                 default:
                     break;
